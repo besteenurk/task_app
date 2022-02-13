@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import AllTasks from "./components/AllTasks";
+import AllTasks from "./pages/AllTasks";
 import CreateTask from "./components/CreateTask";
-import TaskDetails from "./components/TaskDetails";
-import UpdateTask from "./components/UpdateTask";
+import TaskDetails from "./pages/TaskDetails";
 import NavBar from "./components/NavBar";
 import { Route, Routes } from "react-router";
+import ListingTask from "./components/ListingTask";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<AllTasks />} />
         <Route path="/create_task" element={<CreateTask />} />
         <Route path="/task/:id" element={<TaskDetails />} />
-        <Route path="/task/update" element={<UpdateTask />} />
+        <Route path="/task/list" element={<ListingTask />} />
       </Routes>
     </div>
   );
