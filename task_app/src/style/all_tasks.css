@@ -1,0 +1,54 @@
+.task_col {
+    min-height: 280px !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transform: scale(0.95);
+    border-radius: 20px 0 0 0;
+    text-decoration: none;
+}
+.task_col a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.task_col:hover {
+    transform: scale(1.05);
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+.spinner {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right_col {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.jumbotron-heading {
+    font-weight: 300;
+}
+.pending_card {
+    align-items: center;
+}
+.pending_col {
+    margin-top: -2rem;
+    transform: scale(0.95);
+}
+.pending_col .pending_card:hover {
+    transform: scale(1.05);
+    background-color: #4A6D8C;
+    color: #FFFFFF;
+}
+.card-body {
+    align-items: center !important;
+}
+
+.card-title {
+    text-align: center !important;
+    color: black;
+}
+.card-title:hover {
+    text-align: center !important;
+    color: black;
+}

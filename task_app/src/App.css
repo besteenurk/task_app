@@ -1,0 +1,59 @@
+.circle {
+    width: 10rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: none;
+    color: red;
+    fill: red;
+}
+
+.circle_1 {
+    width: 8rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    overflow: none;
+    fill: pink;
+}
+
+.circle_2 {
+    width: 12rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    overflow: none;
+    fill: blue;
+}
+
+.nav-pills .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link:hover {
+    color: white !important;
+    background-color: #6A8AA6 !important;
+}
+
+.nav-pills .nav-link:active {
+    color: white !important;
+    background-color: #6A8AA6 !important;
+}
+
+li.nav-item:focus {
+    color: white !important;
+    background-color: #6A8AA6 !important;
+}
+
+.btn-primary {
+    background-color: #4A6D8C;
+    border-color: #4A6D8C;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4A6D8C;
+    border-color: #4A6D8C;
+    color: white;
+}
