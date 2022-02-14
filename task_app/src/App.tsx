@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import AllTasks from "./pages/AllTasks";
-import CreateTask from "./components/CreateTask";
+import CreateTask from "./pages/CreateTask";
 import TaskDetails from "./pages/TaskDetails";
 import NavBar from "./components/NavBar";
 import { Route, Routes } from "react-router";
